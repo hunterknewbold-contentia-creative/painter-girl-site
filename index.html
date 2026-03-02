@@ -1,24 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painter Girl</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pretty Paint, Professional Quality. The Licensed Look You'll Love with Painter Girl, LLC, Utah's top-rated residential painting specialists." />
+  <title>Painter Girl, LLC | Utah's Top-Rated Residential Painting</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Painter Girl</h1>
-    </header>
-    <main>
-        <section id="gallery">
-            <!-- Paintings will be displayed here -->
-        </section>
-    </main>
-    <footer>
-        <p>Follow me on social media!</p>
-        <!-- Social media links here -->
-    </footer>
-    <script src="script.js"></script>
+  <div class="trust-banner">Licensed &amp; Insured Utah Contractor | BuildZoom Score 90 | Top 53% of Utah Contractors</div>
+  <header>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-badge"></span>Painter Girl, LLC</a>
+      <nav aria-label="Primary Navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Book Estimate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <article>
+          <h1>Pretty Paint, Professional Quality. The Licensed Look You'll Love.</h1>
+          <p class="lead">Don't just get a paint job—get an experience with Utah's friendliest, top-rated residential painting specialists. We make your home beautiful and the process seamless.</p>
+          <p><a class="btn" href="contact.html">Book Your Free Estimate</a></p>
+          <p class="lead" style="font-size:0.92rem; margin-top:1.8rem;">Ready for the licensed quality and beautiful results your home deserves? Let's chat about your project.</p>
+        </article>
+        <div>
+            <!-- Placeholder for hero image -->
+            <img src="images/hero-painter.jpg" alt="Painter Girl LLC painting a home" style="width:100%; height:auto; border-radius:15px; box-shadow:var(--shadow);">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-3">
+        <div class="card">
+          <h3>Welcome to Painter Girl, LLC</h3>
+          <p>Where passion for color meets licensed expertise. Founded by Dawnyel Lynn Sprague, we specialize in high-quality interior and exterior residential painting for homeowners across Utah.</p>
+        </div>
+        <div class="card">
+          <h3>Licensed & Insured</h3>
+          <p>As a licensed contractor ranking in the top 53% in Utah (BuildZoom score 90), you can trust us to deliver a durable, vibrant, and impeccable finish every single time.</p>
+        </div>
+        <div class="card">
+          <h3>Delightful Experience</h3>
+          <p>Get ready for a painting experience that’s as delightful as your new walls will be.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="container cta">
+            <h2 style="margin-top:0">Looking for a Painter?</h2>
+            <p>Searching for <strong>Utah residential painting</strong>, a reliable <strong>Salt Lake County house painter</strong>, or the <strong>best exterior painting in Utah</strong>? Painter Girl, LLC delivers friendly service and professional-level finishes designed to last.</p>
+            <a class="btn" href="contact.html">Book Your Free Estimate</a>
+        </div>
+    </section>
+  </main>
+
+  <footer><div class="container">© <span id="y"></span> Painter Girl, LLC</div></footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
