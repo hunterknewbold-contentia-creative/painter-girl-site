@@ -70,6 +70,51 @@ header {
   box-shadow: var(--shadow);
 }
 
+.brand-logo {
+  width: 2.2rem;
+  height: 2.2rem;
+  flex: 0 0 auto;
+}
+
+.hero-art {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  background: #fff;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.logo-preview {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+}
+
+.service-icon {
+  width: 64px;
+  height: 64px;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -197,6 +242,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .hero-grid, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .hero-grid, .grid-3, .grid-2, .logo-grid, .icon-grid { grid-template-columns: 1fr; }
   nav ul { flex-wrap: wrap; justify-content: flex-end; }
 }

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <defs>
+    <linearGradient id="pg-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF49A5"/>
+      <stop offset="1" stop-color="#B90D6C"/>
+    </linearGradient>
+    <linearGradient id="pg-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE25F"/>
+      <stop offset="1" stop-color="#F3A90A"/>
+    </linearGradient>
+  </defs>
+
+  <symbol id="icon-brush" viewBox="0 0 64 64">
+    <rect x="6" y="29" width="31" height="10" rx="5" fill="#5B311C"/>
+    <rect x="31" y="25" width="11" height="18" rx="3" fill="#ECEEF3"/>
+    <path d="M40 24h16v20H40z" fill="url(#pg-pink)"/>
+    <path d="M54 24c6 2 6 16 0 20" stroke="url(#pg-pink)" stroke-width="4" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="icon-roller" viewBox="0 0 64 64">
+    <path d="M11 18h34a6 6 0 0 1 0 12H11z" fill="url(#pg-pink)"/>
+    <path d="M45 24h7c4 0 7 3 7 7v9" stroke="#5B311C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M59 40v10a5 5 0 0 1-5 5H38" stroke="#5B311C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="icon-palette" viewBox="0 0 64 64">
+    <path d="M32 7c-14 0-25 10-25 22 0 11 9 20 21 20h7c4 0 6 2 6 5 0 2 2 4 5 4 7 0 13-8 13-18C59 22 47 7 32 7z" fill="url(#pg-pink)"/>
+    <circle cx="21" cy="26" r="4" fill="#fff"/>
+    <circle cx="31" cy="20" r="4" fill="url(#pg-gold)"/>
+    <circle cx="41" cy="25" r="4" fill="#fff"/>
+    <circle cx="24" cy="36" r="4" fill="url(#pg-gold)"/>
+  </symbol>
+
+  <symbol id="icon-house" viewBox="0 0 64 64">
+    <path d="M8 31 32 11l24 20v22H8z" fill="url(#pg-pink)"/>
+    <path d="M26 53V38h12v15" fill="#fff"/>
+    <path d="M15 29h34" stroke="url(#pg-gold)" stroke-width="4"/>
+  </symbol>
+
+  <symbol id="icon-shield" viewBox="0 0 64 64">
+    <path d="M32 8 52 15v17c0 13-8 20-20 24C20 52 12 45 12 32V15z" fill="url(#pg-pink)"/>
+    <path d="m22 33 7 7 13-15" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="icon-spark" viewBox="0 0 64 64">
+    <path d="M32 8 38 24l16 8-16 8-6 16-6-16-16-8 16-8z" fill="url(#pg-gold)"/>
+    <circle cx="50" cy="14" r="5" fill="url(#pg-pink)"/>
+  </symbol>
+</svg>

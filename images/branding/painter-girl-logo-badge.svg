@@ -1,0 +1,37 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Painter Girl badge logo</title>
+  <desc id="desc">Pink paint swash logo with winking mascot and script lettering.</desc>
+  <defs>
+    <linearGradient id="swash" x1="100" y1="120" x2="760" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF47A4"/>
+      <stop offset="1" stop-color="#B80D6B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE357"/>
+      <stop offset="1" stop-color="#F4A307"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="451" cy="350" r="330" stroke="#E31382" stroke-width="10"/>
+  <path d="M168 470C287 395 555 386 769 476" stroke="url(#swash)" stroke-width="126" stroke-linecap="round"/>
+  <path d="M530 258C615 221 695 223 765 253" stroke="url(#accent)" stroke-width="36" stroke-linecap="round"/>
+  <path d="M488 204C550 183 603 184 657 202" stroke="#FBC4DD" stroke-width="24" stroke-linecap="round"/>
+
+  <circle cx="295" cy="279" r="86" fill="#FFDCC5"/>
+  <path d="M227 282C250 227 291 194 350 194" stroke="#2D1817" stroke-width="12" stroke-linecap="round"/>
+  <path d="M228 258C239 222 267 200 308 199C355 199 392 230 392 270" stroke="#D50A75" stroke-width="44" stroke-linecap="round"/>
+  <path d="M355 246C376 244 393 257 394 278" stroke="#2D1817" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="336" cy="286" r="10" fill="#2D1817"/>
+  <path d="M272 286L292 286" stroke="#2D1817" stroke-width="8" stroke-linecap="round"/>
+  <path d="M269 321C283 338 307 340 324 324" stroke="#FF2A93" stroke-width="8" stroke-linecap="round"/>
+
+  <g transform="translate(424 305) rotate(31)">
+    <rect x="0" y="0" width="99" height="44" rx="22" fill="#5D311B"/>
+    <rect x="62" y="-3" width="38" height="50" rx="8" fill="#EDEFF3"/>
+    <rect x="82" y="-3" width="39" height="50" rx="10" fill="#FF2E92"/>
+  </g>
+
+  <text x="460" y="497" text-anchor="middle" fill="#fff" font-size="140" font-weight="800" font-style="italic" font-family="Brush Script MT, Segoe Script, cursive">Painter</text>
+  <text x="499" y="596" text-anchor="middle" fill="url(#accent)" font-size="126" font-weight="800" font-style="italic" font-family="Brush Script MT, Segoe Script, cursive">Girl</text>
+  <text x="617" y="603" fill="#fff" font-size="43" font-weight="700" font-family="Inter, Arial, sans-serif">LLC</text>
+</svg>
