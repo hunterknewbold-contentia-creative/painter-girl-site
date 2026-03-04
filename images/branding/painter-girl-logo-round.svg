@@ -1,0 +1,40 @@
+<svg width="960" height="960" viewBox="0 0 960 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Painter Girl circular logo</title>
+  <desc id="desc">Circular brand mark with pink ring, paint swashes, and Painter Girl text lockup.</desc>
+  <defs>
+    <linearGradient id="pink" x1="170" y1="150" x2="780" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4DA6"/>
+      <stop offset="1" stop-color="#C21373"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD84D"/>
+      <stop offset="1" stop-color="#F6A300"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="480" cy="480" r="455" fill="#fff"/>
+  <circle cx="480" cy="480" r="435" stroke="url(#pink)" stroke-width="24"/>
+
+  <path d="M220 375C314 338 440 334 548 364" stroke="#F9B4CF" stroke-width="26" stroke-linecap="round"/>
+  <path d="M505 430C610 388 698 392 770 422" stroke="url(#yellow)" stroke-width="42" stroke-linecap="round"/>
+  <path d="M190 545C325 480 575 495 790 585" stroke="url(#pink)" stroke-width="120" stroke-linecap="round"/>
+  <path d="M290 710C405 665 585 675 718 730" stroke="url(#yellow)" stroke-width="24" stroke-linecap="round" opacity="0.82"/>
+
+  <circle cx="335" cy="365" r="95" fill="#FDE6D0"/>
+  <path d="M252 340C259 290 300 257 350 257C399 257 440 290 447 340V366H252V340Z" fill="#2E1A1A"/>
+  <path d="M256 340C274 302 306 283 350 283C392 283 423 300 442 338L432 385H266L256 340Z" fill="url(#pink)"/>
+  <circle cx="304" cy="355" r="11" fill="#2B1818"/>
+  <circle cx="366" cy="355" r="11" fill="#2B1818"/>
+  <path d="M307 395C329 409 348 409 371 395" stroke="#D73A7A" stroke-width="9" stroke-linecap="round"/>
+
+  <g transform="translate(438 385) rotate(28)">
+    <rect x="0" y="0" width="102" height="50" rx="25" fill="#5B2C14"/>
+    <rect x="68" y="-4" width="36" height="58" rx="8" fill="#EFEFF4"/>
+    <rect x="86" y="-4" width="42" height="58" rx="10" fill="#FF3093"/>
+    <path d="M123 0C150 8 150 48 123 54" stroke="#FF3093" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <text x="477" y="622" text-anchor="middle" fill="#fff" font-size="136" font-weight="800" font-style="italic" font-family="Brush Script MT, Segoe Script, cursive">Painter</text>
+  <text x="515" y="735" text-anchor="middle" fill="url(#yellow)" font-size="126" font-weight="800" font-style="italic" font-family="Brush Script MT, Segoe Script, cursive">Girl</text>
+  <text x="633" y="748" fill="#fff" font-size="43" font-weight="700" font-family="Inter, Arial, sans-serif">LLC</text>
+</svg>
